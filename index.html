@@ -13,7 +13,7 @@
   --accent:#2f6fa3; --accent-soft:#e3eef8;
   --ok:#1f7a4d; --ok-soft:#e2f3ea; --no:#c2402f; --no-soft:#fbe7e3;
   --u1:#8a4fb0; --u2:#b0602a; --u3:#1f7a6b; --u4:#2f5fb3; --u5:#5a7d1f;
-  --uni:#2d4373; --shirt:#ffffff; --ribbon:#d9485f; --badge:#f2c14e; --badge-ink:#8a6414; --skin:#ffe1c9; --hair-g:#4a2f24; --hair-b:#2b2622;
+  --uni:#a3a8b0; --uni-line:#868c95; --navy:#233158; --navy-line:#34467a; --shoe:#3a2c28; --shirt:#ffffff; --ribbon:#d9485f; --badge:#f2c14e; --badge-ink:#8a6414; --skin:#ffe1c9; --hair-g:#4a2f24; --hair-b:#2b2622;
   --hero-a:#d9ecff; --hero-b:#e6f7ee; --blush:#ffb3b3; --pal:#fff7d6; --pal-ink:#3a3322;
   --serif:"Nanum Myeongjo","Batang",serif;
   --cute:"Jua","Gowun Dodum","Apple SD Gothic Neo",sans-serif;
@@ -118,43 +118,61 @@ label{font-size:14px}
         <h1>통사2 시사 퀴즈</h1>
         <p class="hello">요즘 뉴스 속에 사회 교과서가 숨어 있어요. 기사 하나 읽고 3문제만 풀어 볼까요?</p>
       </div>
-      <svg class="mascot" viewBox="0 0 200 150" aria-hidden="true">
-        <ellipse cx="100" cy="142" rx="84" ry="6" fill="var(--ink)" opacity=".08"/>
+      <svg class="mascot" viewBox="0 0 200 168" aria-hidden="true">
+        <ellipse cx="100" cy="160" rx="80" ry="5" fill="var(--ink)" opacity=".08"/>
         <!-- girl -->
-        <path d="M24 60a34 34 0 0 1 68 0v22a6 6 0 0 1-6 6H30a6 6 0 0 1-6-6z" fill="var(--hair-g)"/>
-        <rect x="32" y="84" width="52" height="54" rx="18" fill="var(--uni)"/>
-        <path d="M46 84l12 20 12-20z" fill="var(--shirt)"/>
-        <path d="M58 96l-9-5v10zM58 96l9-5v10z" fill="var(--ribbon)"/><circle cx="58" cy="96" r="2.6" fill="var(--ribbon)"/>
-        <path d="M38 106h9v6q-4.5 4-9 0z" fill="var(--badge)" stroke="var(--badge-ink)" stroke-width="1.2"/>
-        <circle cx="58" cy="58" r="25" fill="var(--skin)"/>
-        <path d="M33 56q2-24 25-24t25 24q-10-4-17-14q-6 10-33 14z" fill="var(--hair-g)"/>
-        <ellipse cx="49" cy="62" rx="3" ry="3.8" fill="var(--pal-ink)"/><ellipse cx="67" cy="62" rx="3" ry="3.8" fill="var(--pal-ink)"/>
-        <circle cx="50" cy="60.6" r="1.1" fill="var(--sheet)"/><circle cx="68" cy="60.6" r="1.1" fill="var(--sheet)"/>
-        <ellipse cx="42" cy="70" rx="5" ry="3" fill="var(--blush)" opacity=".8"/><ellipse cx="74" cy="70" rx="5" ry="3" fill="var(--blush)" opacity=".8"/>
-        <path d="M53 71q5 5 10 0" fill="none" stroke="var(--pal-ink)" stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M35 48a25 25 0 0 1 50 0v22q0 5-5 5H40q-5 0-5-5z" fill="var(--hair-g)"/>
+        <rect x="52" y="128" width="6.5" height="24" fill="var(--skin)"/><rect x="61.5" y="128" width="6.5" height="24" fill="var(--skin)"/>
+        <rect x="51.5" y="141" width="7.5" height="12" rx="1.5" fill="var(--shirt)"/><rect x="61" y="141" width="7.5" height="12" rx="1.5" fill="var(--shirt)"/>
+        <ellipse cx="55" cy="155" rx="6.5" ry="3.6" fill="var(--shoe)"/><ellipse cx="65" cy="155" rx="6.5" ry="3.6" fill="var(--shoe)"/>
+        <path d="M44 106h32l7 27H37z" fill="var(--navy)"/>
+        <path d="M52 108l-2.5 24M60 108v25M68 108l2.5 24" stroke="var(--navy-line)" stroke-width="1.3"/>
+        <rect x="37" y="76" width="9" height="28" rx="4.5" fill="var(--uni)" transform="rotate(10 41.5 76)"/>
+        <circle cx="37" cy="105" r="4.5" fill="var(--skin)"/>
+        <rect x="44" y="71" width="32" height="40" rx="11" fill="var(--uni)"/>
+        <path d="M53 71l7 14 7-14z" fill="var(--shirt)"/>
+        <path d="M60 79l-7-4v8zM60 79l7-4v8z" fill="var(--ribbon)"/><circle cx="60" cy="79" r="2.3" fill="var(--ribbon)"/>
+        <path d="M47 90h8v5.5q-4 3.5-8 0z" fill="var(--badge)" stroke="var(--badge-ink)" stroke-width="1.1"/>
+        <path d="M60 86v24" stroke="var(--uni-line)" stroke-width="1.2"/>
+        <path d="M73 78q9 9 15 19" fill="none" stroke="var(--uni)" stroke-width="9" stroke-linecap="round"/>
+        <circle cx="60" cy="46" r="24" fill="var(--skin)"/>
+        <path d="M36 47q0-25 24-25t24 25q-6-2-10-10q-3 8-14 8q-9 0-12-8q-4 7-12 10z" fill="var(--hair-g)"/>
+        <circle cx="76" cy="31" r="3.4" fill="var(--ribbon)"/><circle cx="81" cy="35" r="3.4" fill="var(--ribbon)"/>
+        <ellipse cx="51" cy="52" rx="3.9" ry="4.9" fill="var(--pal-ink)"/><ellipse cx="69" cy="52" rx="3.9" ry="4.9" fill="var(--pal-ink)"/>
+        <circle cx="52.4" cy="50.2" r="1.6" fill="#fff"/><circle cx="70.4" cy="50.2" r="1.6" fill="#fff"/>
+        <circle cx="50" cy="54.2" r=".8" fill="#fff"/><circle cx="68" cy="54.2" r=".8" fill="#fff"/>
+        <ellipse cx="44.5" cy="59" rx="4.5" ry="2.6" fill="var(--blush)" opacity=".85"/><ellipse cx="75.5" cy="59" rx="4.5" ry="2.6" fill="var(--blush)" opacity=".85"/>
+        <path d="M57 59q3 3.4 6 0" fill="none" stroke="var(--pal-ink)" stroke-width="2" stroke-linecap="round"/>
         <!-- boy -->
-        <rect x="116" y="84" width="52" height="54" rx="18" fill="var(--uni)"/>
-        <path d="M130 84l12 20 12-20z" fill="var(--shirt)"/>
-        <path d="M139 90h6l2 4-3 20h-4l-3-20z" fill="var(--ribbon)"/>
-        <path d="M122 106h9v6q-4.5 4-9 0z" fill="var(--badge)" stroke="var(--badge-ink)" stroke-width="1.2"/>
-        <circle cx="142" cy="58" r="25" fill="var(--skin)"/>
-        <path d="M116 58q-2-28 26-28t26 28q-3-9-10-12q-4 8-16 7q-10 0-14-6q-8 4-12 11z" fill="var(--hair-b)"/>
-        <ellipse cx="133" cy="62" rx="3" ry="3.8" fill="var(--pal-ink)"/><ellipse cx="151" cy="62" rx="3" ry="3.8" fill="var(--pal-ink)"/>
-        <circle cx="134" cy="60.6" r="1.1" fill="var(--sheet)"/><circle cx="152" cy="60.6" r="1.1" fill="var(--sheet)"/>
-        <ellipse cx="126" cy="70" rx="5" ry="3" fill="var(--blush)" opacity=".8"/><ellipse cx="158" cy="70" rx="5" ry="3" fill="var(--blush)" opacity=".8"/>
-        <path d="M136 70q6 7 12 0z" fill="var(--pal-ink)"/>
+        <rect x="129" y="106" width="10" height="46" rx="3" fill="var(--navy)"/><rect x="141" y="106" width="10" height="46" rx="3" fill="var(--navy)"/>
+        <ellipse cx="133" cy="155" rx="7" ry="3.8" fill="var(--shoe)"/><ellipse cx="147" cy="155" rx="7" ry="3.8" fill="var(--shoe)"/>
+        <rect x="154" y="74" width="9" height="30" rx="4.5" fill="var(--uni)" transform="rotate(-10 158.5 74)"/>
+        <circle cx="163" cy="104" r="4.5" fill="var(--skin)"/>
+        <rect x="124" y="70" width="32" height="42" rx="11" fill="var(--uni)"/>
+        <path d="M133 70l7 14 7-14z" fill="var(--shirt)"/>
+        <path d="M138 75h4l1.5 3-2 16h-3l-2-16z" fill="var(--ribbon)"/>
+        <path d="M127 90h8v5.5q-4 3.5-8 0z" fill="var(--badge)" stroke="var(--badge-ink)" stroke-width="1.1"/>
+        <path d="M127 78q-9 9-15 19" fill="none" stroke="var(--uni)" stroke-width="9" stroke-linecap="round"/>
+        <circle cx="140" cy="44" r="24" fill="var(--skin)"/>
+        <path d="M116 46q-3-27 24-27t24 27q-2-8-8-11q-5 6-16 6t-15-6q-7 4-9 11z" fill="var(--hair-b)"/>
+        <path d="M140 20q3-7 9-6" fill="none" stroke="var(--hair-b)" stroke-width="3" stroke-linecap="round"/>
+        <ellipse cx="131" cy="50" rx="3.9" ry="4.9" fill="var(--pal-ink)"/><ellipse cx="149" cy="50" rx="3.9" ry="4.9" fill="var(--pal-ink)"/>
+        <circle cx="132.4" cy="48.2" r="1.6" fill="#fff"/><circle cx="150.4" cy="48.2" r="1.6" fill="#fff"/>
+        <circle cx="130" cy="52.2" r=".8" fill="#fff"/><circle cx="148" cy="52.2" r=".8" fill="#fff"/>
+        <ellipse cx="124.5" cy="57" rx="4.5" ry="2.6" fill="var(--blush)" opacity=".85"/><ellipse cx="155.5" cy="57" rx="4.5" ry="2.6" fill="var(--blush)" opacity=".85"/>
+        <path d="M136 56q4 5.5 8 0z" fill="var(--pal-ink)"/>
         <!-- shared newspaper -->
-        <g transform="rotate(-4 100 112)">
-          <rect x="74" y="94" width="52" height="36" rx="4" fill="var(--pal)" stroke="var(--pal-ink)" stroke-width="2.4"/>
-          <path d="M100 94v36" stroke="var(--pal-ink)" stroke-width="1.4" opacity=".4"/>
-          <rect x="79" y="99" width="17" height="5" rx="2.5" fill="var(--accent)"/>
-          <rect x="79" y="108" width="17" height="3" rx="1.5" fill="var(--pal-ink)" opacity=".3"/>
-          <rect x="79" y="114" width="13" height="3" rx="1.5" fill="var(--pal-ink)" opacity=".3"/>
-          <rect x="104" y="99" width="17" height="11" rx="2" fill="var(--pal-ink)" opacity=".18"/>
-          <rect x="104" y="114" width="17" height="3" rx="1.5" fill="var(--pal-ink)" opacity=".3"/>
-          <rect x="104" y="120" width="12" height="3" rx="1.5" fill="var(--pal-ink)" opacity=".3"/>
+        <g transform="rotate(-3 100 97)">
+          <rect x="85" y="81" width="30" height="32" rx="3" fill="var(--pal)" stroke="var(--pal-ink)" stroke-width="2"/>
+          <path d="M100 81v32" stroke="var(--pal-ink)" stroke-width="1" opacity=".4"/>
+          <rect x="88" y="85" width="10" height="4" rx="2" fill="var(--accent)"/>
+          <rect x="88" y="92" width="10" height="2.4" rx="1.2" fill="var(--pal-ink)" opacity=".3"/>
+          <rect x="88" y="97" width="8" height="2.4" rx="1.2" fill="var(--pal-ink)" opacity=".3"/>
+          <rect x="103" y="85" width="9" height="8" rx="1.5" fill="var(--pal-ink)" opacity=".18"/>
+          <rect x="103" y="97" width="9" height="2.4" rx="1.2" fill="var(--pal-ink)" opacity=".3"/>
+          <rect x="103" y="102" width="7" height="2.4" rx="1.2" fill="var(--pal-ink)" opacity=".3"/>
         </g>
-        <circle cx="76" cy="115" r="5" fill="var(--skin)"/><circle cx="124" cy="111" r="5" fill="var(--skin)"/>
+        <circle cx="88" cy="98" r="4.5" fill="var(--skin)"/><circle cx="112" cy="98" r="4.5" fill="var(--skin)"/>
       </svg>
       <div class="stats" id="stats"></div>
       <div class="window" id="window"></div>
